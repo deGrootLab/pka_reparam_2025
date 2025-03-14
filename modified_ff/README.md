@@ -1,7 +1,4 @@
-# pka_reparam_2025
-data and ff params for: "Improving pKa prediction accuracy with reparametrized force fields and free energy calculations"
-
-##modified_ff:
+# modified force fields
 charmm36m-075: all side chains and common counterions scaled to 0.75.
 amber14sbq-075: adapts the backbone partials from amber99sb-star-ildn-q [1]. These partials give more accurate relative free energy values in proteins [2,3]. The residue side chains are also charge scaled to 0.75. We also adapt the terminal capping group so custom terminal residues are not required (i.e., GLU, DGLU, and NGLU) (this is the same strategy used in CHARMM36m). Common counterions scaled to 0.75.
 

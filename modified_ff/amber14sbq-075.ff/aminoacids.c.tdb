@@ -1,0 +1,13 @@
+[ None ]
+
+; CHARMM CTER
+[ COO- ]
+[ replace ]
+ C      C   C   12.01  0.4532 ; 0.6110 * 0.75
+ O      OC1 O2  16.00 -0.5869   ; 0.7908 * 0.75
+ OXT    OC2 O2  16.00 -0.5869   ; 0.7908 * 0.75
+[ add ]
+ 2  8   OC  C   CA  N
+    O2  16.00 -0.5869   -1
+[ impropers ]
+ CA   OC1     C   OC2 ;  C  CA  OC2 OC1

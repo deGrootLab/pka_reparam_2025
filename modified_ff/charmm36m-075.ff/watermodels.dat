@@ -1,0 +1,7 @@
+
+tip3p   TIP3P   TIP 3-point, recommended, by default uses CHARMM TIP3 with LJ on H
+opc     OPC     OPC 4-point
+tip4p   TIP4P   TIP 4-point
+tip5p   TIP5P   TIP 5-point
+spc     SPC     simple point charge
+spce    SPC/E   extended simple point charge

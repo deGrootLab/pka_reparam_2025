@@ -1,0 +1,26 @@
+
+
+[ None ]
+
+[ GLY-NH3+ ]
+[ replace ]
+ N   N   NH3     14.0070 -0.22
+ CA  CA  CT2     12.011   0.10
+[ Add ]
+ 3   4   H       N       CA   C
+     HC  1.008   0.25    -1
+[ delete ]
+ HN
+
+[ NH3+ ]
+[ replace ]
+ N   N   NH3     14.0070 -0.225
+ CA  CA  CT1     12.011   0.1575
+ HA  HA  HB1     1.008    0.075
+[ Add ]
+ 3   4   H       N       CA      C
+     HC  1.008   0.2475   -1
+[ delete ]
+ HN
+    
+
